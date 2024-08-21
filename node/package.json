@@ -1,0 +1,17 @@
+{
+  "name": "com.jg.test",
+  "version": "1.0.0",
+  "description": "this is test express project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server",
+    "dev": "node --watch --env-file .env server"
+  },
+  "author": "Jigar Gadhiya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
